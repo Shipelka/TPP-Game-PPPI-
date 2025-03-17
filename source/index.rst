@@ -1,17 +1,35 @@
-.. TPP-Game-PPPI- documentation master file, created by
-   sphinx-quickstart on Mon Mar 17 11:19:10 2025.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+Welcome to TPP-Game-PPPI documentation!
+========================================
 
-TPP-Game-PPPI- documentation
-============================
+Overview
+--------
 
-Add your content using ``reStructuredText`` syntax. See the
-`reStructuredText <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_
-documentation for details.
+TPP-Game-PPPI — это многопользовательская игра в жанре третьего лица с элементами командного взаимодействия.
+Проект включает в себя различные игровые механики, такие как система статистики игроков, отображение интерфейса (HUD),
+модуль определения языка, сетевую архитектуру (сервер и клиент), а также управление игровым процессом.
 
+Основные особенности игры:
+- **Интуитивно понятный интерфейс** — минималистичный дизайн с возможностью дополнительного отображения данных.
+- **Локальный модуль определения языка** — автоматическое определение языка и возможность ручного выбора.
+- **Сетевая игра** — поддержка многопользовательского режима через сервер и клиент.
+- **Игровой процесс** — система валюты, статистики, отображение здоровья, предметов и целей.
+- **Динамическое отображение HUD** — информация о состоянии игрока в реальном времени.
+- **Различные игровые объекты** — персонажи, NPC, интерактивные элементы (канаты, ветки, ключевые точки на карте).
+
+Contents
+--------
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: Содержание:
+
+   client
+   entities
+   game_loop
+   hud
+   lang_detector
+   map
+   menu
+   modules
+   server
 

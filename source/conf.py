@@ -22,8 +22,9 @@ release = '1'
 
 extensions = [
     'sphinx.ext.autodoc',
-    'sphinx.ext.napoleon',  # Для поддержки docstring в Google или NumPy стиле
-    'sphinx_autodoc_typehints',  # Для автодокументации типов
+    'sphinx.ext.napoleon',  # Поддержка Google/NumPy docstrings
+    'sphinx.ext.viewcode',  # Ссылки на исходный код
+    'sphinx_autodoc_typehints'
 ]
 
 templates_path = ['_templates']
